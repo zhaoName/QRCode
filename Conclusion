@@ -1,0 +1,35 @@
+
+XCode7.3 iOS9.3
+************官方API生成的二维码/条形码和扫码***************
+
+1、官方API生成二维码和扫码都是从iOS7开始，识别图片中的二维码是从iOS8开始(CIDetector);
+
+2、官方API生成二维码和扫码更方便、扫码更快;
+
+3、生成二维码时key值不能乱写：如CIQRCodeGenerator、CICode128BarcodeGenerator等;
+
+4、虽然给出集中二维码样式，但是样式的颜色、logo的大小都写死了;
+
+5、注意：相机的图层和扫码图层之间的上下级关系，尤其是扫码区域图层是自己画的时候，不能写在同一个类里，否则显示相机画面的图层会覆盖掉画出的扫码区域;
+** OfficialScanAnimationView: 画扫码区域，扫码动画
+** OfficialScanQRCodeView: 显示相机获取的画面，扫码
+
+6、扫码区域，这里要重点注意rectOfInterest的每个坐标的意思，算比例的时候可以按横屏算！可以适当的放大，以适应距离、扫码灵敏度！
+微信、QQ的扫码区域都要比给出的框要大很多，所以感觉扫码速度很快
+
+
+************三方库生成的二维码/条形码和扫码***************
+
+1、ZBar可以扫二维码/条形码，但是不能生成二维码/条形码，生成二维码要借助libqrencode库，但是这个库还要加一个QRCodeGenerator类才能用
+   生成条形码还要借助另外的库（NKDBarcode 但是cocoapods上找不到）
+
+2、ZXing能生成二维码/条形码，但只能扫二维码。
+修改能扫条形码：http://blog.csdn.net/sy_bz/article/details/8736225
+
+3、libqrencode生成的二维码四周有空白。
+
+
+本文参考:
+
+原生二维码：https://github.com/kingsic/SGQRCode.git
+Zbar： http://code.cocoachina.com/view/132719
