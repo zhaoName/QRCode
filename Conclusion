@@ -8,7 +8,7 @@ XCode7.3 iOS9.3
 
 3、生成二维码时key值不能乱写：如CIQRCodeGenerator、CICode128BarcodeGenerator等;
 
-4、虽然给出集中二维码样式，但是样式的颜色、logo的大小都写死了;
+4、虽然给出几种二维码样式，但是样式的颜色、logo的大小都写死了;
 
 5、注意：相机的图层和扫码图层之间的上下级关系，尤其是扫码区域图层是自己画的时候，不能写在同一个类里，否则显示相机画面的图层会覆盖掉画出的扫码区域;
 ** OfficialScanAnimationView: 画扫码区域，扫码动画
