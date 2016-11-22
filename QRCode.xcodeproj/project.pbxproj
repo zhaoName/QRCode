@@ -14,13 +14,13 @@
 		FE6C25321DAA424200E7B2E8 /* OfficialScanAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6C25311DAA424200E7B2E8 /* OfficialScanAnimationView.m */; };
 		FE6C25351DAB852A00E7B2E8 /* OfficialScanQRCodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6C25341DAB852A00E7B2E8 /* OfficialScanQRCodeView.m */; };
 		FE6C253B1DAB893B00E7B2E8 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6C253A1DAB893B00E7B2E8 /* TableViewController.m */; };
-		FE6C253E1DAB98E300E7B2E8 /* SuccessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6C253D1DAB98E300E7B2E8 /* SuccessViewController.m */; };
 		FE6C25411DACE26C00E7B2E8 /* ZBarScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6C25401DACE26C00E7B2E8 /* ZBarScanViewController.m */; };
 		FE6C25441DADDBA700E7B2E8 /* ZBarScanQRCodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6C25431DADDBA700E7B2E8 /* ZBarScanQRCodeView.m */; };
 		FE6C254A1DAE055000E7B2E8 /* UIImage+ZBarGenerateQRCode.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6C25491DAE055000E7B2E8 /* UIImage+ZBarGenerateQRCode.m */; };
 		FE6C254D1DAE095800E7B2E8 /* QRCodeGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6C254C1DAE095800E7B2E8 /* QRCodeGenerator.m */; };
 		FE6C259B1DAE249E00E7B2E8 /* Code39.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6C259A1DAE249E00E7B2E8 /* Code39.m */; };
 		FE6C259D1DAE255200E7B2E8 /* Conclusion in Resources */ = {isa = PBXBuildFile; fileRef = FE6C259C1DAE255200E7B2E8 /* Conclusion */; };
+		FEEC142E1DE2E97C00CEA030 /* SuccessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEEC142D1DE2E97C00CEA030 /* SuccessViewController.m */; };
 		FEF06B131DA8C4CE008BF260 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF06B121DA8C4CE008BF260 /* main.m */; };
 		FEF06B161DA8C4CE008BF260 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF06B151DA8C4CE008BF260 /* AppDelegate.m */; };
 		FEF06B1C1DA8C4CE008BF260 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEF06B1A1DA8C4CE008BF260 /* Main.storyboard */; };
@@ -45,8 +45,6 @@
 		FE6C25341DAB852A00E7B2E8 /* OfficialScanQRCodeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OfficialScanQRCodeView.m; sourceTree = "<group>"; };
 		FE6C25391DAB893B00E7B2E8 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
 		FE6C253A1DAB893B00E7B2E8 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
-		FE6C253C1DAB98E300E7B2E8 /* SuccessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuccessViewController.h; sourceTree = "<group>"; };
-		FE6C253D1DAB98E300E7B2E8 /* SuccessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuccessViewController.m; sourceTree = "<group>"; };
 		FE6C253F1DACE26C00E7B2E8 /* ZBarScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarScanViewController.h; sourceTree = "<group>"; };
 		FE6C25401DACE26C00E7B2E8 /* ZBarScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBarScanViewController.m; sourceTree = "<group>"; };
 		FE6C25421DADDBA700E7B2E8 /* ZBarScanQRCodeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarScanQRCodeView.h; sourceTree = "<group>"; };
@@ -58,6 +56,8 @@
 		FE6C25991DAE249E00E7B2E8 /* Code39.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Code39.h; sourceTree = "<group>"; };
 		FE6C259A1DAE249E00E7B2E8 /* Code39.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Code39.m; sourceTree = "<group>"; };
 		FE6C259C1DAE255200E7B2E8 /* Conclusion */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Conclusion; sourceTree = "<group>"; };
+		FEEC142C1DE2E97C00CEA030 /* SuccessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuccessViewController.h; sourceTree = "<group>"; };
+		FEEC142D1DE2E97C00CEA030 /* SuccessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuccessViewController.m; sourceTree = "<group>"; };
 		FEF06B0E1DA8C4CE008BF260 /* QRCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QRCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEF06B121DA8C4CE008BF260 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FEF06B141DA8C4CE008BF260 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -136,6 +136,8 @@
 				FEF06B151DA8C4CE008BF260 /* AppDelegate.m */,
 				FE6C25391DAB893B00E7B2E8 /* TableViewController.h */,
 				FE6C253A1DAB893B00E7B2E8 /* TableViewController.m */,
+				FEEC142C1DE2E97C00CEA030 /* SuccessViewController.h */,
+				FEEC142D1DE2E97C00CEA030 /* SuccessViewController.m */,
 				FEF06B1A1DA8C4CE008BF260 /* Main.storyboard */,
 				FEF06B1D1DA8C4CE008BF260 /* Assets.xcassets */,
 				FEF06B1F1DA8C4CE008BF260 /* LaunchScreen.storyboard */,
@@ -166,8 +168,6 @@
 				FE6C25311DAA424200E7B2E8 /* OfficialScanAnimationView.m */,
 				FE6C25331DAB852A00E7B2E8 /* OfficialScanQRCodeView.h */,
 				FE6C25341DAB852A00E7B2E8 /* OfficialScanQRCodeView.m */,
-				FE6C253C1DAB98E300E7B2E8 /* SuccessViewController.h */,
-				FE6C253D1DAB98E300E7B2E8 /* SuccessViewController.m */,
 			);
 			path = AppleOfficial;
 			sourceTree = "<group>";
@@ -326,7 +326,7 @@
 				FEF06B131DA8C4CE008BF260 /* main.m in Sources */,
 				FEF06B2C1DA8CFF2008BF260 /* OfficialGenerateQRCodeVC.m in Sources */,
 				FE6C25351DAB852A00E7B2E8 /* OfficialScanQRCodeView.m in Sources */,
-				FE6C253E1DAB98E300E7B2E8 /* SuccessViewController.m in Sources */,
+				FEEC142E1DE2E97C00CEA030 /* SuccessViewController.m in Sources */,
 				FE6C25321DAA424200E7B2E8 /* OfficialScanAnimationView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
